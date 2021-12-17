@@ -1,1 +1,24 @@
-//
+@use 'bootstrap';
+
+// Variables
+
+$brand-color: #0282F9;
+$brand-secondary: #464646;
+
+header{
+    .upper-header{
+        background: $brand-color;
+    }
+
+    nav{
+       a {
+        text-decoration: none;
+        color: $brand-secondary !important;
+        font-weight: 700;
+        &:hover {
+          color: $brand-color;
+          border-bottom: $brand-color 10px solid;
+        }
+      }
+    }
+}
