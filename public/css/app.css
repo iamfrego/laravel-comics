@@ -11277,3 +11277,12 @@ header nav .search-container button {
 header nav .search-container button:hover {
   background: #ccc;
 }
+
+main .jumbo_img img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}

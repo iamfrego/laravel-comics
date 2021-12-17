@@ -4,9 +4,8 @@
 
 
 @section('content')
-
-<div class="container">
-    <p>MAIN</p>
+<div class="jumbo_img">
+    <img src="{{asset('img/jumbotron.jpg')}}" alt="">
 </div>
 
 @endsection

@@ -5,6 +5,8 @@
 $brand-color: #0282F9;
 $brand-secondary: #464646;
 
+// Header
+
 header{
     .upper-header{
         background: $brand-color;
@@ -46,4 +48,17 @@ header{
         background: #ccc;
         }
     }
+}
+
+// Main
+
+main{
+    .jumbo_img {
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+  }
+}
 }
