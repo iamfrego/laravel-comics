@@ -19,6 +19,11 @@
             <a class="nav-link" href="#">FANS</a>
             <a class="nav-link" href="#">NEWS</a>
             <a class="nav-link" href="#">SHOP</a>
+            <div class="search nav-link d-flex">
+                <span class="ps-5 pe-3">Search</span>
+                <i class="fas fa-search"></i>
+            </div>
+
         </nav>
 
     </div>
