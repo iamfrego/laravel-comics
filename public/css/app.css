@@ -11248,7 +11248,7 @@ header .upper-header {
 }
 header nav .nav-link {
   text-decoration: none;
-  color: #464646 !important;
+  color: #1c1c1c !important;
   font-weight: 700;
 }
 header nav .nav-link:hover {
@@ -11285,4 +11285,80 @@ main .jumbo_img img {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+main .bg_secondary {
+  background: #1c1c1c;
+}
+main .bg_secondary .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+main .bg_secondary .load_more {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  color: white;
+  padding: 1rem 1.5rem;
+  background-color: #0282F9;
+}
+main .primary_background {
+  background-color: #0282F9;
+  padding: 3rem;
+  justify-content: center;
+}
+main .primary_background .cards {
+  line-height: 75px;
+}
+main .primary_background .cards img {
+  height: 75px;
+  padding-left: 2rem;
+}
+main .primary_background .cards p {
+  color: white;
+  padding-left: 2rem;
+}
+
+.footerJumboImg {
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-3 h3 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.col-3 ul {
+  list-style: none;
+}
+.col-3 ul li {
+  padding-top: 0.5rem;
+  color: #8f8f90;
+}
+
+#site_footer {
+  background-color: #1c1c1c;
+  padding: 2rem 0rem;
+  width: 100%;
+}
+#site_footer .signup h2 {
+  color: white;
+  padding: 1rem;
+  border: #0282F9 5px solid;
+}
+#site_footer .social {
+  color: #0282F9;
+}
+#site_footer .social h2 {
+  align-self: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#site_footer .social img {
+  height: 70px;
+  margin: 0rem 1rem;
 }

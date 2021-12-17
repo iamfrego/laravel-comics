@@ -1,4 +1,4 @@
-<header id="site_header">
+<header id="site_header" class="mb-4">
     <div class="upper-header py-2">
         <div class="container d-flex justify-content-end">
             <span class="text-white">DC POWER &#8482; VISA &#174;</span>
