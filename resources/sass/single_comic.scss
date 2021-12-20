@@ -1,5 +1,13 @@
 @import 'var';
 
+.brand-color{
+    color :$brand-color;
+}
+
+.darker-brand{
+    color :$darker-brand;
+}
+
 .spec_comic{
     .brand_line{
         background: $brand-color;

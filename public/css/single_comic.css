@@ -1,3 +1,11 @@
+.brand-color {
+  color: #0282F9;
+}
+
+.darker-brand {
+  color: #003F85;
+}
+
 .spec_comic .brand_line {
   background: #0282F9;
   height: 50px;
