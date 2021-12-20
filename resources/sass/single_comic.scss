@@ -1,0 +1,15 @@
+@import 'var';
+
+.spec_comic{
+    .brand_line{
+        background: $brand-color;
+        height: 50px;
+    }
+    .card_comic{
+        position: absolute;
+        bottom: 450px;
+    }
+    .comic-info{
+        color: $brand-color;
+    }
+}
