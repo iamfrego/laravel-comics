@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
-@section('page-title', 'News')
+@section('page-title', 'Newa')
 
 @section('content')
-<h1>News page</h1>
+<div>
+    <h1>News page</h1>
+</div>
 @endsection

@@ -3,5 +3,7 @@
 @section('page-title', 'Videos')
 
 @section('content')
-<h1>Videos page</h1>
+<div>
+    <h1>Video page</h1>
+</div>
 @endsection

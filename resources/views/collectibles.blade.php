@@ -2,6 +2,9 @@
 
 @section('page-title', 'Collectibles')
 
+
 @section('content')
-<h1>Collectibles page</h1>
+<div>
+    <h1>Collectibles page</h1>
+</div>
 @endsection

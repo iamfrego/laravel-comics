@@ -3,5 +3,7 @@
 @section('page-title', 'Fans')
 
 @section('content')
-<h1>Fans page</h1>
+<div>
+    <h1>Fans page</h1>
+</div>
 @endsection

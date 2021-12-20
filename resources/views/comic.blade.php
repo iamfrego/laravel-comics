@@ -49,8 +49,12 @@
                 <img src="{{ asset('img/adv.jpg') }}" alt="">
             </div>
         </div>
+    </div>
 
+    <div class="bg-brand-secondary">
 
     </div>
+
+
 </div>
 @endsection

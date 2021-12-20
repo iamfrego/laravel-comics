@@ -11243,10 +11243,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 #site_header .little_header {
   background-color: #0282F9;
   color: white;
@@ -11293,7 +11289,7 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 13px;
-  color: #464646;
+  color: #1C1C1C;
 }
 #site_header .nav_menu .container ul li a:hover {
   color: #0282F9;
@@ -11319,15 +11315,15 @@ body {
   text-align: end;
 }
 #site_header .nav_menu .container .search input::-moz-placeholder {
-  color: #464646;
+  color: #1C1C1C;
   font-weight: 700;
 }
 #site_header .nav_menu .container .search input:-ms-input-placeholder {
-  color: #464646;
+  color: #1C1C1C;
   font-weight: 700;
 }
 #site_header .nav_menu .container .search input::placeholder {
-  color: #464646;
+  color: #1C1C1C;
   font-weight: 700;
 }
 #site_header .nav_menu .container .search input:focus-visible {
@@ -11340,13 +11336,13 @@ body {
   height: 400px;
 }
 
-#site_main {
+#site_main .main-bg {
   background-color: #1C1C1C;
 }
-#site_main .container {
+#site_main .main-bg .container {
   position: relative;
 }
-#site_main .container h2 {
+#site_main .main-bg .container h2 {
   font-size: 30px;
   position: absolute;
   top: -30px;
@@ -11355,18 +11351,18 @@ body {
   color: white;
   text-transform: uppercase;
 }
-#site_main .container .series {
+#site_main .main-bg .container .series {
   padding: 60px 10px 0;
 }
-#site_main .container a {
+#site_main .main-bg .container a {
   text-decoration: none;
 }
-#site_main .container a .card_comics {
+#site_main .main-bg .container a .card_comics {
   color: white;
   text-transform: uppercase;
   font-size: 11px;
 }
-#site_main .container a .card_comics img {
+#site_main .main-bg .container a .card_comics img {
   height: 180px;
   width: 180px;
   -o-object-fit: cover;
@@ -11374,16 +11370,16 @@ body {
   -o-object-position: top;
      object-position: top;
 }
-#site_main .container a .card_comics h3 {
+#site_main .main-bg .container a .card_comics h3 {
   font-size: 14px;
   margin: 10px 0 20px;
 }
-#site_main .container .button {
+#site_main .main-bg .container .button {
   display: flex;
   justify-content: center;
   padding-bottom: 15px;
 }
-#site_main .container .button button {
+#site_main .main-bg .container .button button {
   background-color: #0282F9;
   border: 1px solid #0282F9;
   color: white;
@@ -11393,28 +11389,28 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-#site_main .menu_dc {
+#site_main .main-bg .menu_dc {
   background-color: #0282F9;
   color: white;
   display: flex;
   align-items: center;
   height: 150px;
 }
-#site_main .menu_dc .container {
+#site_main .main-bg .menu_dc .container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-#site_main .menu_dc .container .icon {
+#site_main .main-bg .menu_dc .container .icon {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-#site_main .menu_dc .container .icon img {
+#site_main .main-bg .menu_dc .container .icon img {
   width: 100%;
   height: 60px;
 }
-#site_main .menu_dc .container .icon h3 {
+#site_main .main-bg .menu_dc .container .icon h3 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 15px;
@@ -11461,7 +11457,7 @@ body {
      object-fit: cover;
 }
 #site_footer .contact {
-  background-color: #303030;
+  background-color: #1C1C1C;
   height: 100px;
 }
 #site_footer .contact .container {
@@ -11475,7 +11471,7 @@ body {
   font-size: 1rem;
   padding: 12px;
   color: white;
-  background-color: #303030;
+  background-color: #1C1C1C;
   border: 2px solid #0282F9;
   cursor: pointer;
 }

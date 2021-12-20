@@ -3,5 +3,7 @@
 @section('page-title', 'Shop')
 
 @section('content')
-<h1>Shop page</h1>
+<div>
+    <h1>Shop page</h1>
+</div>
 @endsection

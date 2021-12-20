@@ -12,4 +12,16 @@
     .comic-info{
         color: $brand-color;
     }
+    .price_avaiabile{
+        background: $available;
+        .price-box{
+            width: 80%;
+        }
+        .check{
+            border-left: 1px solid $brand-secondary ;
+        }
+    }
+    .bg-brand-secondary{
+        background: $low-contrast;
+    }
 }

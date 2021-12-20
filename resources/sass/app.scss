@@ -1,11 +1,9 @@
 @use 'bootstrap';
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+@import 'var';
 
 #site_header {
     .little_header {
-        background-color: #0282F9;
+        background-color: $brand-color;
         color: white;
         p {
             text-transform: uppercase;
@@ -46,18 +44,18 @@ body {
                         text-transform: uppercase;
                         font-weight: 800;
                         font-size: 13px;
-                        color: #464646;
+                        color: $brand-secondary;
                         &:hover {
-                            color: #0282F9;
-                            border-bottom: 5px solid #0282F9;
+                            color: $brand-color;
+                            border-bottom: 5px solid $brand-color;
                         }
                         &.active {
-                            color: #0282F9;
-                            border-bottom: 5px solid #0282F9;
+                            color: $brand-color;
+                            border-bottom: 5px solid $brand-color;
                         }
                         span {
                             font-size: 15px;
-                            color: #0282F9;
+                            color: $brand-color;
                         }
                     }
                 }
@@ -66,13 +64,13 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
-                border-bottom: 2px solid #0282F9;
+                border-bottom: 2px solid $brand-color;
                 width: 150px;
                 input {
                     border: 0;
                     text-align: end;
                     &::placeholder {
-                        color: #464646;
+                        color: $brand-secondary;
                         font-weight: 700;
                     }
                     &:focus-visible {
@@ -91,82 +89,84 @@ body {
 }
 
 #site_main {
-    background-color: #1C1C1C;
-    .container {
-        position: relative;
-        h2 {
-            font-size: 30px;
-            position: absolute;
-            top: -30px;
-            padding: 10px 20px;
-            background-color: #0282F9;
-            color: white;
-            text-transform: uppercase;
-        }
-        .series {
-            padding: 60px 10px 0;
-        }
-        a {
-            text-decoration: none;
-            .card_comics {
-                color: white;
-                text-transform: uppercase;
-                font-size: 11px;
-                img {
-                    height: 180px;
-                    width: 180px;
-                    object-fit: cover;
-                    object-position: top;
-                }
-                h3 {
-                    font-size: 14px;
-                    margin: 10px 0 20px;
-                }
-            }
-        }
-        .button {
-            display: flex;
-            justify-content: center;
-            padding-bottom: 15px;
-            button {
-                background-color: #0282F9;
-                border: 1px solid #0282F9;
-                color: white;
-                padding: 8px 45px;
-                text-transform: uppercase;
-                font-size: 11px;
-                font-weight: bold;
-                cursor: pointer;
-            }
-        }
-    }
-    .menu_dc {
-        background-color: #0282F9;
-        color: white;
-        display: flex;
-        align-items: center;
-        height: 150px;
+    .main-bg{
+        background-color: $brand-secondary;
         .container {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            .icon {
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                img {
-                    width: 100%;
-                    height: 60px;
-                }
-                h3 {
+            position: relative;
+            h2 {
+                font-size: 30px;
+                position: absolute;
+                top: -30px;
+                padding: 10px 20px;
+                background-color: $brand-color;
+                color: white;
+                text-transform: uppercase;
+            }
+            .series {
+                padding: 60px 10px 0;
+            }
+            a {
+                text-decoration: none;
+                .card_comics {
+                    color: white;
                     text-transform: uppercase;
-                    font-weight: 400;
-                    font-size: 15px;
-                    margin-left: 10px;
+                    font-size: 11px;
+                    img {
+                        height: 180px;
+                        width: 180px;
+                        object-fit: cover;
+                        object-position: top;
+                    }
+                    h3 {
+                        font-size: 14px;
+                        margin: 10px 0 20px;
+                    }
+                }
+            }
+            .button {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 15px;
+                button {
+                    background-color: $brand-color;
+                    border: 1px solid $brand-color;
+                    color: white;
+                    padding: 8px 45px;
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    font-weight: bold;
+                    cursor: pointer;
                 }
             }
         }
-    }
+        .menu_dc {
+            background-color: $brand-color;
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 150px;
+            .container {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                .icon {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        height: 60px;
+                    }
+                    h3 {
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        font-size: 15px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }  
 }
 
 #site_footer {
@@ -198,7 +198,7 @@ body {
             p {
                 color: #8f8f90;
                 a {
-                    color: #0282F9;
+                    color: $brand-color;
                     text-decoration: none;
                     &:hover {
                         text-decoration: underline;
@@ -211,7 +211,7 @@ body {
         }
     }
     .contact {
-        background-color: #303030;
+        background-color: $brand-secondary;
         height: 100px;
         .container {
             display: flex;
@@ -223,8 +223,8 @@ body {
                 font-size: 1rem;
                 padding: 12px;
                 color: white;
-                background-color: #303030;
-                border: 2px solid #0282F9;
+                background-color: $brand-secondary;
+                border: 2px solid $brand-color;
                 cursor: pointer;
             }
             .socials {
@@ -237,7 +237,7 @@ body {
                     }
                 }
                 h3 {
-                    color: #0282F9;
+                    color: $brand-color;
                     text-transform: uppercase;
                     margin-right: 10px;
                 }

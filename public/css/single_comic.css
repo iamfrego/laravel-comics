@@ -1,0 +1,23 @@
+.spec_comic .brand_line {
+  background: #0282F9;
+  height: 50px;
+}
+.spec_comic .card_comic {
+  position: absolute;
+  bottom: 450px;
+}
+.spec_comic .comic-info {
+  color: #0282F9;
+}
+.spec_comic .price_avaiabile {
+  background: #55BA59;
+}
+.spec_comic .price_avaiabile .price-box {
+  width: 80%;
+}
+.spec_comic .price_avaiabile .check {
+  border-left: 1px solid #1C1C1C;
+}
+.spec_comic .bg-brand-secondary {
+  background: #F6F6F6;
+}
